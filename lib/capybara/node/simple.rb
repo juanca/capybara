@@ -150,7 +150,7 @@ module Capybara
         yield # simple nodes don't need to wait
       end
 
-      def allow_reload!
+      def allow_reload!(*)
         # no op
       end
 
